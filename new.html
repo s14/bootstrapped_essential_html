@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add A New Student</title>
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>New Student</h1>
+    </div>
+
+    <form class="form-horizontal">
+      <div class="form-group">
+        <label for="first" class="col-md-2 control-label">First Name</label>
+        <div class="col-md-6">
+          <input name="first_name" type="text" id="first" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="last" class="col-md-2 control-label">Last Name</label>
+        <div class="col-md-6">
+          <input name="last_name" type="text" id="last" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="program" class="col-md-2 control-label">Program</label>
+        <div class="col-md-6">
+          <select name="select" class="form-control">
+            <option value="4">Executive MBA</option>
+            <option value="3">Full-Time MBA</option>
+            <option value="6">JD-MBA</option>
+            <option value="1">MMM (MBA + MEM)</option>
+            <option value="9">Part-Time MBA</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="picture" class="col-md-2 control-label">Picture URL</label>
+        <div class="col-md-6">
+          <input name="image_url" type="text" id="picture" class="form-control">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-md-offset-2 col-md-6">
+          <input name="first_name" type="submit" class="btn btn-primary" value="Create Student">
+          or <a href="index.html">Cancel</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
